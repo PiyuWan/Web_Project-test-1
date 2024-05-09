@@ -29,7 +29,7 @@ const MovieItems = ({ title, releaseDate, posterUrl, id }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button sx={{ margin: "auto" }} size="small">
+        <Button LinkComponent={Link} sx={{ margin: "auto" }} size="small">
           Book
         </Button>
       </CardActions>
